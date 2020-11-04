@@ -41,13 +41,21 @@ body {
       text-decoration: none;
   }
 
+  h1{
+    color: rgb(123, 43, 169);
+  }
   
-/*  p {
-    color: rgb(126, 70, 179);
+  #product, h1 {
+    text-align: center;
+  }
+
+  #product, p {
+    color: black;
     font-family: verdana;
+    font-size: 15px;
     text-align: left;
-    margin-left: 900px;
-  }*/
+  }
+  
 
   h3 {
       color: purple
@@ -71,6 +79,7 @@ body {
   margin: auto;
 }
 
+
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -84,7 +93,7 @@ body {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color:white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -105,7 +114,7 @@ body {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
